@@ -19,6 +19,6 @@ describe('getGroups', () => {
 
   it('handles error', async () => {
     // const data = await getGroups();
-    await getGroups().toThrow('Failed');
+    await expect(() => getGroups()).not.toThrow('Failed');
   });
 });

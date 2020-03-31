@@ -1,4 +1,4 @@
-export default async () => {
+export const getGroups = async () => {
   return {
     groups: [
       { id: 1, name: 'Data1' },
